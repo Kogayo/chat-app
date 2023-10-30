@@ -72,3 +72,9 @@ group :test do
 end
 
 gem "devise"
+
+
+test = "こんにちは"
+'テスト#{test}' =>  テスト#{test}
+"テスト#{test}" => テストこんにちは
+
