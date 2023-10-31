@@ -73,8 +73,4 @@ end
 
 gem "devise"
 
-
-test = "こんにちは"
-'テスト#{test}' =>  テスト#{test}
-"テスト#{test}" => テストこんにちは
-
+gem 'pry-rails'
